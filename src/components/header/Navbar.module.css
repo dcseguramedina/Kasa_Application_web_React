@@ -2,9 +2,9 @@
 
 .nav {
     width: 309px;
-    height: 34px;    
+    height: 34px;
+    margin: 0;
     margin-top: 17px;
-    margin-right: 100px;
   }
   
   .nav_list {
@@ -26,3 +26,14 @@
   a:hover {
     text-decoration-line: underline;
   }
+
+  @media only screen and (max-width: 768px) {
+    .nav {
+       width: 140px;
+       height: 17px;
+    }
+
+    .nav_list_item {
+      font-size: 12px;
+    }
+ }

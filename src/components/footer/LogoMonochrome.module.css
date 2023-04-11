@@ -3,7 +3,10 @@
 .logo_monochrome {
     width: 122px;
     height: 39.44px;
-    margin-left: 659px;
-    margin-top: 66px;
-    margin-bottom: 103.56px;
+
+    position: absolute;
+    left: 659px;
+    top: 66px;
+    right: 659px;
+    bottom: 103.56px;
 }

@@ -3,13 +3,24 @@
 .copyright {
     width: 513px;
     height: 46px;
-    margin-left: 463px;
-    margin-top: 134px;
-    margin-bottom: 29px;
+
+    position: absolute;
+    left: 463px;
+    top: 134px;
+    right: 514px;
+    bottom: 29px;
+
+    text-align: center;
      
     font-weight: 500;
     font-size: 24px;
     line-height: 142.6%;
     
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright {        
+        font-size: 12px;
+    }
 }

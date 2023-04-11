@@ -1,3 +1,5 @@
+/* Personalized font style */
+
 @font-face {
   font-family: 'Montserrat';
   src: url('fonts/Montserrat-VariableFont_wght.ttf'), 
@@ -13,9 +15,10 @@
   
 }
 
+/* Others */
 body {
   max-width: 1440px;
-  max-height: 1433px;
+  max-height: 1233px;
 
   background: #ffffff;
 

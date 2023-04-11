@@ -1,17 +1,17 @@
-/* Footer */
+/* Home */
 
-.footer {
+.home { 
     width: 1440px;
-    height: 209px;
+    height: 1024px;
 
     position: relative;
-
-    background: #000000;
+  
+    background: #ffffff;
 }
-
+  
 @media only screen and (max-width: 768px) {
-    .footer {
+    .home {
         width: 375px;
-        height: 209px;
+        height: 812px;
     }
 }
