@@ -10,12 +10,12 @@ import NotFound from '../pages/notFound/NotFound';
 
 function AppRoutes() {
   return (
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/accommodation/:id" element={<Accommodation />} />
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/accommodation/:id" element={<Accommodation />} />
+      <Route path="/*" element={<NotFound />} />
+    </Routes>
   );
 }
 

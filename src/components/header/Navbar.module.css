@@ -1,0 +1,28 @@
+/* Nav */
+
+.nav {
+    width: 309px;
+    height: 34px;    
+    margin-top: 17px;
+    margin-right: 100px;
+  }
+  
+  .nav_list {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    text-align: right;
+  }
+  
+  .nav_list_item {
+    width: 50%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+  
+    color: #ff6060;
+  }
+  
+  a:hover {
+    text-decoration-line: underline;
+  }
