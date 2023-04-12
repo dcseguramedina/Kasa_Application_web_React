@@ -8,7 +8,7 @@ import styles from './Gallery.module.css';
 
 function Gallery() {
   return (
-    <section className={styles.gallery}>
+    <main className={styles.gallery}>
       {datas.map((data) => {
         return (
           <Thumb
@@ -19,7 +19,7 @@ function Gallery() {
           />
         );
       })}
-    </section>
+    </main>
   );
 }
 

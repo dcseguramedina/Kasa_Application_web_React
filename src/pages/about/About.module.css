@@ -1,0 +1,27 @@
+/* About */
+
+.about { 
+    width: 1440px;
+    height: 1024px;
+
+    position: relative; 
+  
+    background: #ffffff;
+  }
+
+.about_dropdown {
+  width: 1023px;
+  height: auto;
+
+  position: absolute; 
+  left: 208px;
+  top: 406px;
+  right: 209px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        width: 375px;
+        height: 812px;
+    }
+}
