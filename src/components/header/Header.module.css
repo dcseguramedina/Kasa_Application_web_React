@@ -1,15 +1,9 @@
 /* Header */
 
 .header {
-   width: 1240px;
-   height: 68px;
-   
-   position: absolute;
-   left: 100px;
-   top: 40px;
-   right: 100px;
-   bottom: 916px;
-
+   width: 100%;
+   margin-top: 30px;
+ 
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -18,12 +12,6 @@
 @media only screen and (max-width: 768px) {
    .header {
       width: 335px;
-      height: 47px;
 
-      position: absolute;
-      left: 20px;
-      top: 20px;
-      right: 20px;
-      bottom: 745px;
    }
 }

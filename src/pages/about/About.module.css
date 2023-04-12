@@ -1,27 +1,22 @@
 /* About */
 
 .about { 
-    width: 1440px;
-    height: 1024px;
-
-    position: relative; 
+    width: 100%;
   
     background: #ffffff;
   }
 
 .about_dropdown {
   width: 1023px;
-  height: auto;
+  margin-top: 50px;
 
-  position: absolute; 
-  left: 208px;
-  top: 406px;
-  right: 209px; 
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 @media only screen and (max-width: 768px) {
     .about {
         width: 375px;
-        height: 812px;
     }
 }

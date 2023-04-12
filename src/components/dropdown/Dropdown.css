@@ -1,8 +1,5 @@
 .dropdown {
-    width: 100%;
-    height: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    width: 100%;        
   }
   
   .dropdown_title {
@@ -82,17 +79,7 @@
   }
 
   .dropdown_content_hidden {
-    width: auto;
-    height: auto;
-    padding-left: 18px;
-    padding-top: 36px;
-    padding-right: 27px;
-    padding-bottom: 19px;
-  
-    background: #f7f7f7;
-
-    border-radius: 5px;
-
+    display: none;
     visibility: hidden;
     opacity: 0;
     height: 0;

@@ -7,18 +7,20 @@ import Thumb from '../gallery/Thumb';
 import styles from './Gallery.module.css';
 
 function Gallery() {
+  const mapdata = datas.map((data) => {
+    return (
+      <Thumb
+        key={data.id}
+        id={data.id}
+        title={data.title}
+        cover={data.cover}
+      />
+    );
+  })
+
   return (
     <main className={styles.gallery}>
-      {datas.map((data) => {
-        return (
-          <Thumb
-            key={data.id}
-            id={data.id}
-            title={data.title}
-            cover={data.cover}
-          />
-        );
-      })}
+      {mapdata}
     </main>
   );
 }
