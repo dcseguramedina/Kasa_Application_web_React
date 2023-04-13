@@ -2,8 +2,8 @@
 import React from 'react';
 
 //Import components
-import LogoMonochrome from './LogoMonochrome';
-import Copyright from './Copyright';
+import LogoMonochrome from '../logoB&W/LogoB&W';
+import Copyright from '../copyright/Copyright';
 
 //Import styles
 import styles from './Footer.module.css';

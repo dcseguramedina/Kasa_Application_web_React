@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../../assets/logoMonochrome.png';
 
 //Import styles
-import styles from './LogoMonochrome.module.css';
+import styles from './LogoB&W.module.css';
 
 function LogoMonochrome() {
   return (

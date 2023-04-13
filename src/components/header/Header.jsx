@@ -2,8 +2,8 @@
 import React from 'react';
 
 //Import components
-import Logo from './Logo';
-import Navbar from './Navbar';
+import Logo from '../logo/Logo';
+import Navbar from '../navbar/Navbar';
 
 //Import styles
 import styles from './Header.module.css';
