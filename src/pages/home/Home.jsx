@@ -1,5 +1,6 @@
 //Internal libraries
 import React from "react";
+import image from '../../assets/banner_home.png'; 
 
 //Import components
 import Banner from '../../components/banner/Banner';
@@ -11,7 +12,11 @@ import styles from './Home.module.css';
 function Home() {
   return (
     <div className={styles.home}>
-        <Banner />
+        <Banner          
+          image={image}
+          alt={`Paysage côtier`}
+          description={`Chez vous, partout et ailleurs`} 
+        />
         <Gallery />      
     </div>
   );

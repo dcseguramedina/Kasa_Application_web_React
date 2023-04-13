@@ -1,14 +1,12 @@
 //Internal libraries
 import React from 'react';
-import logo from '../../assets/logo.png';
 
 //Import styles
 import styles from './Logo.module.css';
 
-
-function Logo() {
+function Logo({image, description}) {
   return (    
-      <img className={styles.logo} src={logo} alt="Logo de Kasa" />
+      <img className={styles.image} src={image} alt={description} />
   );
 }
 

@@ -1,11 +1,11 @@
 /* Nav */
 
 .nav {
-    width: 309px;
-    height: 34px;
-    margin: 0;
-    margin-top: 17px;
-  }
+  width: 309px;
+  height: 34px;
+  margin: 0;
+  margin-top: 17px;
+}
   
   .nav_list {
     display: flex;
@@ -28,10 +28,6 @@
   }
 
   @media only screen and (max-width: 768px) {
-    .nav {
-       width: 140px;
-       height: 17px;
-    }
 
     .nav_list_item {
       font-size: 12px;

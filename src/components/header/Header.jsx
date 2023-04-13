@@ -1,5 +1,6 @@
 //Internal libraries
 import React from 'react';
+import logo from '../../assets/logo.png';
 
 //Import components
 import Logo from '../logo/Logo';
@@ -11,8 +12,16 @@ import styles from './Header.module.css';
 function Header() {
   return (
     <header className={styles.header}>
-        <Logo />
-        <Navbar />
+      <div className={styles.logo}>
+        <Logo
+          image={logo}
+          description={`Logo de kasa`}
+        />
+      </div>      
+      <Navbar 
+        home={`Accueil`}
+        about={`À propos`}
+      />     
     </header>
   );
 }

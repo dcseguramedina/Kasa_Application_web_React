@@ -1,8 +1,9 @@
 //Internal libraries
 import React from 'react';
+import logo from '../../assets/logoB&W.png';
 
 //Import components
-import LogoMonochrome from '../logoB&W/LogoB&W';
+import Logo from '../logo/Logo';
 import Copyright from '../copyright/Copyright';
 
 //Import styles
@@ -11,8 +12,15 @@ import styles from './Footer.module.css';
 function Footer() {
   return (
     <footer className={styles.footer}>
-        <LogoMonochrome />
-        <Copyright />
+      <div className={styles.logo}>
+        <Logo
+          image={logo}
+          description={`Logo de kasa en noir et blanc`}
+        />
+      </div>
+        <Copyright
+          description={`© 2020 Kasa. All rights reserved`}
+        />
     </footer>
   );
 }

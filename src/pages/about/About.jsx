@@ -1,5 +1,6 @@
 //Internal libraries
 import React from 'react';
+import image from '../../assets/banner_about.png'; 
 
 //Import components
 import Banner from '../../components/banner/Banner';
@@ -11,7 +12,10 @@ import styles from './About.module.css';
 function About() {
   return (
     <div className={styles.about}>
-      <Banner />
+      <Banner
+          image={image}
+          alt={`Paysage de montagne`}
+        />
       <main className={styles.about_dropdown}>
         <Dropdown
           title={`Fiabilité`}

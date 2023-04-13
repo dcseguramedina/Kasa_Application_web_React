@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 //Import styles
 import styles from './Navbar.module.css';
 
-function Navbar() {
+function Navbar({home, about}) {
   return (
     <nav className={styles.nav}>
       <ul className={styles.nav_list}>        
         <li className={styles.nav_list_item}>
-          <Link to="/">Accueil</Link>
+          <Link to="/">{home}</Link>
         </li>
         <li className={styles.nav_list_item}>
-          <Link to="/about">À propos</Link>
+          <Link to="/about">{about}</Link>
         </li>
       </ul>
     </nav>
