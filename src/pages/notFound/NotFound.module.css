@@ -2,12 +2,12 @@
 /* NotFound */
 
 .not_found {
-    width: 100%;
+    width: 86%;
+    height: auto;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    row-gap: 150px;   
+    justify-content: center;       
   
     background: #ffffff;
   }
@@ -15,14 +15,18 @@
   .error_code {    
     width: 597px;
     height: 263px;
+    margin-top: 100px;
   }
   
   .error_message {    
-    width: 880px;
+    width: 872px;
     height: 51px;
+    margin-top: 125px;
   }
   
   .return {
     width: 284px;
     height: 26px;
+    margin-top: 182px;
+    margin-bottom: 159px;
   }

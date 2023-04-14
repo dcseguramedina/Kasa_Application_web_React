@@ -17,7 +17,9 @@ function Home() {
           alt={`Paysage côtier`}
           description={`Chez vous, partout et ailleurs`} 
         />
-        <Gallery />      
+        <main>
+          <Gallery /> 
+        </main>             
     </div>
   );
 }
