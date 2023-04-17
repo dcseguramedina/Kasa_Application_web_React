@@ -1,0 +1,70 @@
+/* Accommodation */
+
+.accommodation { 
+    width: 86%;
+    height: auto;
+  
+    background: #ffffff;
+}
+
+.accommodation_carrousel {
+    width: 100%;
+    height: 415px;
+    margin-top: 20px;
+    
+    border-radius: 25px;
+
+    background-color: #ff6060;
+}
+
+.accommodation_main { 
+    width: 100%;
+    height: auto;
+
+}
+
+.accommodation_info {
+    width: 100%;
+    height: 122px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #ff6060;
+}
+
+.accommodation_info_place {
+    width: 50%;
+    margin-left: 0;
+    
+
+    background-color: #ffffff;
+}
+
+
+.accommodation_info_host {
+    width: 20%;
+    margin-right: 0;
+    
+
+    background-color: #ffffff;
+}
+
+.accommodation_dropdowns {
+    width: 100%;
+    height: auto;
+    margin-top: 26px;
+    margin-bottom: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accommodation_dropdown {
+    width: 47%;
+    margin-left: 0;
+    margin-right: 0;
+}
