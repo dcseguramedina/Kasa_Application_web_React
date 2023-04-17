@@ -25,14 +25,11 @@ function Accommodation() {
                     />
                 </section>
                 <main className={styles.accommodation_main}>            
-                <section className={styles.accommodation_info}>
+                    <section className={styles.accommodation_info}>
                         <div className={styles.accommodation_info_place}>
                             <h1 className={styles.accommodation_title}>{``}</h1>
                             <h2 className={styles.accommodation_location}>{``}</h2>
-                            <div className={styles.accommodation_tags}>
-                                <Tag
-                                />
-                            </div>
+                            <div className={styles.accommodation_tags}></div>
                         </div>
                         <div className={styles.accommodation_info_host}>
                             <h2>{``}</h2>
