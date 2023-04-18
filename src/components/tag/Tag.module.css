@@ -1,0 +1,23 @@
+
+.tag {
+    width: auto;
+    height: auto; 
+    margin: 0;
+    margin-right: 1.5%;
+    padding-left: 5%;   
+    padding-top: 0.5%;
+    padding-right: 5%; 
+    padding-bottom: 0.5%;
+
+    background: #FF6060;
+
+    border-radius: 10px;
+}
+
+.tag_text {
+    font-size: 14px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
