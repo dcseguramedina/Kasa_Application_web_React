@@ -5,7 +5,6 @@ import datas from '../../data/data.js';
 
 //Import components
 import Carrousel from '../../components/carrousel/Carrousel.jsx';
-import Tag from '../../components/tag/Tag.jsx';
 import Dropdown from '../../components/dropdown/Dropdown.jsx';
 
 //Import styles
@@ -13,17 +12,20 @@ import styles from './Accommodation.module.css';
 
 function Accommodation() {
 
-    const id = useParams();
+    const id = useParams().id;
 
-    let data = datas.find((data) => data.id === id);
-    
-        return (
+    let singleData = datas.find((data) => data.id === id);     
+
+    console.log(singleData.pictures);
+
+        return (           
             <div className={styles.accommodation}>
                 <section className={styles.accommodation_carrousel}>
                     <Carrousel
-                        pictures={``}
-                    />
-                </section>
+                        title = {singleData.title}
+                        pictures={singleData.pictures}
+                    />                    
+                </section>               
                 <main className={styles.accommodation_main}>            
                     <section className={styles.accommodation_info}>
                         <div className={styles.accommodation_info_place}>
@@ -51,13 +53,9 @@ function Accommodation() {
                             />
                         </div>              
                     </section>
-                </main>
+                </main>                
             </div>
-            );   
-    
-    
-  
-    
+        );      
 }
 
 export default Accommodation;
