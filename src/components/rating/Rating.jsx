@@ -12,7 +12,7 @@ function Rating({value}) {
         <div className='rating'>
             {stars.map((star) => {
                 return (
-                    <div className={value >= star ? 'red_star' : 'grey_star'}></div>
+                    <div key={star.toString()} className={value >= star ? 'red_star' : 'grey_star'}></div>
                 )
             })}      
         </div>          
