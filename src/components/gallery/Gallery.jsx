@@ -9,7 +9,7 @@ import styles from './Gallery.module.css';
 function Gallery() {
 
   return (
-    <main className={styles.gallery}>
+    <section className={styles.gallery}>
       {datas.map((data) => {
         return (
           <Card
@@ -20,7 +20,7 @@ function Gallery() {
           />
         );
       })}
-    </main>
+    </section>
   );
 }
 

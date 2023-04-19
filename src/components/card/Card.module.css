@@ -1,18 +1,21 @@
 /* Card */
 
 .card {
-    position: relative;
     width: 340px;
     height: 340px;
     margin-bottom: 50px;
+
+    position: relative;
   
     border-radius: 10px;
   }
   
-  .card_image {
-    position: absolute;    
+  .card_image {    
     width: 100%;
     height: 100%;
+
+    position: absolute;
+    left: 0;
   
     background: #FF6060;
   
@@ -22,10 +25,12 @@
     border-radius: 10px;
   }
   
-  .card_overlay {
-    position: absolute;   
+  .card_overlay {  
     width: 340px;
     height: 340px;
+
+    position: absolute; 
+    left: 0;
   
     background: linear-gradient(
       180deg,
@@ -37,17 +42,20 @@
   }
   
   .card_title {
+    width: 300px;
+    height: 52px;
+    
+
     position: absolute;  
     left: 5.88%;
     right: 5.88%;
     top: 78.82%;
-    bottom: 5.88%;
-    width: 300px;
-    height: 52px;
+    bottom: 5.88%; 
+    
+    display: flex;
+    align-items: flex-end;
   
-    font-weight: 500;
     font-size: 18px;
-    line-height: 142.6%;
   
     color: #ffffff;
   }
@@ -60,7 +68,7 @@
     }
 
     .card_overlay {  
-      width: 285px;
+      width: 335px;
       height: 255px;
     }
 

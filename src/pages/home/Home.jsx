@@ -12,14 +12,16 @@ import styles from './Home.module.css';
 function Home() {
   return (
     <div className={styles.home}>
+      <div className={styles.banner}>
         <Banner          
           image={image}
           alt={`Paysage côtier`}
           description={`Chez vous, partout et ailleurs`} 
         />
-        <main>
-          <Gallery /> 
-        </main>             
+      </div>        
+      <main className={styles.gallery}>
+        <Gallery /> 
+      </main>             
     </div>
   );
 }
