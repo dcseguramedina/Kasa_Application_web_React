@@ -15,7 +15,9 @@
   .nav_list_item {    
     margin-right: 0;
 
-    font-size: 24px;    
+    font-weight: 500;
+    font-size: 24px; 
+    line-height: 142.6%;   
   
     color: #ff6060;
     
