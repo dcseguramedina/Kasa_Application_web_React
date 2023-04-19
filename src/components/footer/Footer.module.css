@@ -14,9 +14,12 @@
 }
 
 .logo {
-    width: 8.5%;
-    height: 39.44px;
-    margin-top: 66px;
-    margin-bottom: 28.5px;
+    width: 122px; 
+    height: 39.44px; 
+    margin-top: 66px;   
 }
 
+.copyright {
+    width: 100%;
+    margin-bottom: 30px;
+}

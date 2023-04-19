@@ -18,9 +18,11 @@ function Footer() {
           description={`Logo de kasa en noir et blanc`}
         />
       </div>
+      <div className={styles.copyright}>
         <Copyright
-          description={`© 2020 Kasa. All rights reserved`}
+          content={`© 2020 Kasa. All rights reserved`}
         />
+      </div>        
     </footer>
   );
 }
