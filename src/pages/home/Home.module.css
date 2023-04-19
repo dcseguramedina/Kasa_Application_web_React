@@ -28,6 +28,8 @@
     .banner { 
         height: 111px;  
         margin-top: 20px;
+
+        border-radius: 10px;
     }
 
     .gallery { 

@@ -59,3 +59,13 @@
 
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 768px) {
+    .carrousel {    
+        border-radius: 10px;
+    }
+    
+    .carrousel_image {
+        border-radius: 10px;
+    }    
+ }

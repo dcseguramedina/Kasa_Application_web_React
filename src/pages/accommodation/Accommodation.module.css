@@ -159,6 +159,8 @@
 @media only screen and (max-width: 768px) {    
     .accommodation_carrousel {
         height: 255px;
+
+        border-radius: 10px;
     }
     
     .accommodation_info {

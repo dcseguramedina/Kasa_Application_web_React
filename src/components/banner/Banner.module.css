@@ -3,6 +3,8 @@
     height: 100%; 
     
     position: relative;
+
+    border-radius: 25px;
 }
 
 .banner_underlay {
@@ -59,3 +61,22 @@
   
     color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+    .banner_underlay {      
+        border-radius: 10px;
+    }
+      
+    .banner_image {
+        border-radius: 10px;
+    }
+      
+    .banner_overlay {
+        border-radius: 10px;
+    }
+
+    .banner_text {
+        width: 95%;
+        margin-left: 5%;
+    }
+ }
