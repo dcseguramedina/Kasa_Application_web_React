@@ -17,11 +17,13 @@ function Header() {
           image={logo}
           description={`Logo de kasa`}
         />
-      </div>      
-      <Navbar 
-        home={`Accueil`}
-        about={`À propos`}
-      />     
+      </div>
+      <div className={styles.navbar}>      
+        <Navbar 
+          home={`Accueil`}
+          about={`À propos`}
+        /> 
+      </div>    
     </header>
   );
 }

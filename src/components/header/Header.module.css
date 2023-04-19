@@ -10,14 +10,26 @@
 }
 
 .logo {
-   width: 210.32px;
+   width:  210.32px;
    height: 68px;
    margin-left: 0;
 }
 
-@media only screen and (max-width: 768px) {
-   .header {
-      width: 335px;
+.navbar {
+   width:  309px;
+   height: 34px;
+   margin-right: 0;
+   margin-top: 17px;
+}
 
+@media only screen and (max-width: 768px) {
+   .logo {
+      width:  145px;
+      height: 47px;
+   }
+
+   .navbar {
+      width:  140px;
+      height: 17px;
    }
 }
