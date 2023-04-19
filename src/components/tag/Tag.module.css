@@ -15,9 +15,17 @@
 }
 
 .tag_text {
+    font-weight: 500;
     font-size: 14px;
+    line-height: 142.6%;
 
     text-align: center;
 
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) { 
+    .tag_text {
+        font-size: 10px;
+    }
 }

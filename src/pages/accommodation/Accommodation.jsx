@@ -54,7 +54,7 @@ function Accommodation() {
                             </div> 
                         </div>                       
                     </section>      
-                    <section className={styles.accommodation_dropdowns}>
+                    <section className={styles.accommodation_dropdown_container}>
                         <div className={styles.accommodation_dropdown}>
                             <Dropdown
                                 title={`Description`}
