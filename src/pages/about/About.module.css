@@ -3,6 +3,8 @@
 .about { 
   width: 86%;
   height: auto;
+  margin-top: 0;
+  
   
   background: #ffffff;
 }
