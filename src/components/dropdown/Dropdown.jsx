@@ -20,7 +20,16 @@ function Dropdown({ title, content }) {
         <div className={dropdown ? 'dropdown_title_vector_up' : 'dropdown_title_vector_down'} onClick={handleclick}></div>
       </div>
       <div className={dropdown ? 'dropdown_content' : 'dropdown_content_hidden'}>
-        <p className='dropdown_content_text'>{content}</p>
+        {Array.isArray(content) ? 
+          (<ul className='dropdown_content_list'>
+            {content.map((item, index) => {
+              return (
+                <li key={index}>{item}</li>
+              );
+            })}
+          </ul>) 
+          : 
+          (<p className='dropdown_content_text'>{content}</p>)}
       </div>
     </div>
   );
