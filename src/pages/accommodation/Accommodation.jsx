@@ -1,9 +1,9 @@
 //Internal libraries
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import datas from '../../data/data.js';
 
 //Import components
+import NotFound from '../notFound/NotFound.jsx';
 import Carrousel from '../../components/carrousel/Carrousel.jsx';
 import Tag from '../../components/tag/Tag.jsx';
 import Rating from '../../components/rating/Rating.jsx';
@@ -16,8 +16,15 @@ function Accommodation() {
 
     const id = useParams().id;
 
-    let singleData = datas.find((data) => data.id === id);     
+    let singleData = datas.find((data) => data.id === id);   
+    console.log(singleData);
 
+    if(singleData === undefined) {
+        return (
+            <NotFound />
+        )
+    } 
+   
         return (           
             <div className={styles.accommodation}>
                 <section className={styles.accommodation_carrousel}>
@@ -70,7 +77,8 @@ function Accommodation() {
                     </section>
                 </main>                
             </div>
-        );      
+        ); 
+       
 }
 
 export default Accommodation;
