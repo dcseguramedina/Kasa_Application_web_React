@@ -1,15 +1,16 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import logo from '../../assets/logoB&W.png';
 
-//Import components
+// Import components
 import Logo from '../logo/Logo';
 import Copyright from '../copyright/Copyright';
 
-//Import styles
+// Import styles
 import styles from './Footer.module.css';
 
-function Footer() {
+// Create Footer component
+export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.logo}>
@@ -26,5 +27,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

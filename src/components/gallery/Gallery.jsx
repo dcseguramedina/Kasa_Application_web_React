@@ -1,13 +1,13 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import datas from '../../data/data.js';
 import Card from '../card/Card';
 
-//Import styles
+// Import styles
 import styles from './Gallery.module.css';
 
-function Gallery() {
-
+// Create Gallery component
+export default function Gallery() {
   return (
     <section className={styles.gallery}>
       {datas.map((data) => {
@@ -23,5 +23,3 @@ function Gallery() {
     </section>
   );
 }
-
-export default Gallery;

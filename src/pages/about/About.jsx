@@ -1,15 +1,16 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import image from '../../assets/banner_about.png'; 
 
-//Import components
+// Import components
 import Banner from '../../components/banner/Banner';
 import Dropdown from '../../components/dropdown/Dropdown';
 
-//Import styles
+// Import styles
 import styles from './About.module.css';
 
-function About() {
+// Create About component
+export default function About() {
   return (
     <div className={styles.about}>
       <div className={styles.banner}>
@@ -39,5 +40,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

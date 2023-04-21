@@ -1,13 +1,12 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 
-//Import styles
+// Import styles
 import styles from './Copyright.module.css';
 
-function Copyright({content}) {
+// Create Copyright component
+export default function Copyright({content}) {
   return (    
     <p className={styles.copyright}>{content}</p>
 );
 }
-
-export default Copyright;

@@ -1,3 +1,4 @@
+/* ErrorMessage */
 
 .error_message {  
     font-weight: 500;
@@ -12,10 +13,10 @@
 
   @media only screen and (max-width: 768px) {
     .error_message {
-        font-size: 18px;
-        line-height: 142.6%;
+      font-size: 18px;
+      line-height: 142.6%;
 
-        text-align: center;
+      text-align: center;
     }
 }
   

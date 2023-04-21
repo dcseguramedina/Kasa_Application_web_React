@@ -1,14 +1,15 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import { useState } from 'react';
 
-//Import styles
+// Import styles
 import './Carrousel.css';
 
+// Create Carrousel component
 function Carrousel({ title, pictures }) {
-    
+  // Use state variable to update image between renders
   const [index, setIndex] = useState(0);
-
+  // Create functions to handle the change of image (left/right)
   const handleClickLeft = () => {
     setIndex(index - 1);
     if(index === 0) {

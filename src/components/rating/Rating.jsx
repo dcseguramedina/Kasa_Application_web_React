@@ -1,11 +1,12 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 
-//Import styles
+// Import styles
 import './Rating.css';
 
-function Rating({value}) { 
-
+// Create Rating component
+export default function Rating({value}) { 
+    // Create an array with the number of start to display in order to conditionally render the rating value 
     const stars = [1,2,3,4,5];
     
     return (          
@@ -18,5 +19,3 @@ function Rating({value}) {
         </div>          
     );      
 }
-
-export default Rating;

@@ -9,7 +9,8 @@ import Gallery from '../../components/gallery/Gallery';
 //Import styles
 import styles from './Home.module.css';
 
-function Home() {
+//Create Home component 
+export default function Home() {
   return (
     <div className={styles.home}>
       <div className={styles.banner}>
@@ -25,5 +26,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

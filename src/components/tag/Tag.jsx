@@ -1,15 +1,14 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 
-//Import styles
+// Import styles
 import styles from './Tag.module.css';
 
-function Tag({content}) {   
+// Create Tag component
+export default function Tag({content}) {   
     return (          
         <div className={styles.tag}> 
             <p className={styles.tag_text}>{content}</p>
         </div>          
     );      
 }
-
-export default Tag;

@@ -1,11 +1,12 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-//Import styles
+// Import styles
 import styles from './Card.module.css';
 
-function Card({id, title, cover}) {
+// Create Card component
+export default function Card({id, title, cover}) {
 	return (
 		<Link className={styles.card} to={`/accommodation/${id}`}>
 			<img className={styles.card_image} src={cover} alt={title} />
@@ -14,5 +15,3 @@ function Card({id, title, cover}) {
 		</Link>
 	)
 }
-
-export default Card;

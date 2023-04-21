@@ -1,11 +1,12 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-//Import styles
+// Import styles
 import styles from './Navbar.module.css';
 
-function Navbar({home, about}) {
+// Create Navbar component
+export default function Navbar({home, about}) {
   return (
     <nav className={styles.nav}>
       <ul className={styles.nav_list}>        
@@ -19,5 +20,3 @@ function Navbar({home, about}) {
     </nav>
   );
 }
-
-export default Navbar;

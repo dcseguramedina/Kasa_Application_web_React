@@ -1,15 +1,16 @@
-//Internal libraries
+// Internal libraries
 import React from 'react';
 import logo from '../../assets/logo.png';
 
-//Import components
+// Import components
 import Logo from '../logo/Logo';
 import Navbar from '../navbar/Navbar';
 
-//Import styles
+// Import styles
 import styles from './Header.module.css';
 
-function Header() {
+// Create Header component
+export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -27,5 +28,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
