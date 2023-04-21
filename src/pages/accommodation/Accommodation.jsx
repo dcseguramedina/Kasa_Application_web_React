@@ -39,10 +39,10 @@ export default function Accommodation() {
                         <h1 className={styles.accommodation_info_place_title}>{singleData.title}</h1>
                         <h2 className={styles.accommodation_info_place_location}>{singleData.location}</h2>
                         <div className={styles.accommodation_info_place_tags}>
-                            {singleData.tags.map((tag, index) => {
+                            {singleData.tags.map((tag) => {
                                 return (
                                 <Tag
-                                    key={index}
+                                    key={tag}
                                     content={tag}
                                 />
                                 );

@@ -23,9 +23,9 @@ export default function Dropdown({ title, content }) {
       <div className={dropdown ? 'dropdown_content' : 'dropdown_content_hidden'}>
         {Array.isArray(content) ? 
           (<ul className='dropdown_content_list'>
-            {content.map((item, index) => {
+            {content.map((item) => {
               return (
-                <li key={index}>{item}</li>
+                <li key={item}>{item}</li>
               );
             })}
           </ul>) 
