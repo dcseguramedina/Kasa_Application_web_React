@@ -9,6 +9,7 @@ Le projet 7 "Kasa" du parcours "Développeur web" Openclassroom a pour objectif 
 - Utilisation des librairies React externes interdite
 
 ## Spécifications techniques
+
 ### React
 
 - Découpage en composants modulaires et réutilisables 
